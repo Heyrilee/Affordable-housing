@@ -73,3 +73,23 @@ nav ul li a:hover {
   color: #fff7d1;
   font-size: 20px;
 }
+/* footer styles  */
+footer {
+  background: rgba(0, 0, 0, 0.6);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+#copyright {
+  padding: 1rem 0;
+}
+.copyright__text {
+  font-size: 1.4rem;
+  text-align: center;
+}
+@media only screen and (min-width: 768px) {
+  .copyright__text {
+    font-size: 1.6rem;
+    text-align: left;
+  }
+}
